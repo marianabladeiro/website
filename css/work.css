@@ -1,0 +1,76 @@
+.projects {
+	margin: 4rem -25vw 0 0;
+
+}
+
+.projects li {
+    list-style: none;
+    margin: 0 0 4rem;
+}
+
+
+
+.projects a img {
+    flex: 0 0 auto;
+    width: 18rem;
+    display: block;
+    
+}
+
+.projects a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+
+.proj_list {
+	max-width: 40rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    word-break: break-word;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.proj_details {
+	margin-left: 2rem;
+}
+
+strong {
+	color: var(--bs-body-title);
+	font-size: 2.5rem;
+}
+
+.ft {
+	margin-top: 0.5rem;
+	color: rgba(255, 255, 255, 0.2) ;
+}
+
+.tools {
+	color: var(--bs-body-title);
+	font-size: 0.8rem;
+	margin-right: 0.5rem;
+}
+
+.more_proj {
+	font-size: 1.1rem;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.more_proj a {
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.more_proj i {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.more_proj i:hover {
+	color: var(--bs-body-title);
+}
+

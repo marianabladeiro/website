@@ -1,0 +1,25 @@
+.contacts {
+  	display: flex;
+	list-style: none;
+	margin-top: 2.5rem;
+}
+
+ul {
+	padding-inline-start: 0px !important;
+
+}
+
+
+.contacts li {
+    flex: 0 0 auto;
+    margin: 0 2rem 0 0;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.form:hover {
+	color: var(--bs-body-title);
+}
+
+.form {
+	color: white;
+}
