@@ -23,7 +23,24 @@ a.btn.btn-primary {
 	color: #fff;
 }
 
+.skills_more {
+  margin: 1rem 0 0 0;
+  padding-bottom: 2rem;
+}
 
+.skills_more ul {
+    margin: 1rem 0 0 0;
+    display: grid;
+    grid-template: 1fr/repeat(4,1fr);
+    grid-gap: 2rem;
+    grid-row-gap: 1rem;
+}
+
+.skills_more .main-skills li {
+    flex: 0 0 auto;
+    margin: 0 2.8rem 0 0;
+    color: rgba(255, 255, 255, 0.55);
+}
 
 .main-skills {
   	display: flex;

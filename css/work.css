@@ -37,6 +37,10 @@
 
 .proj_details {
 	margin-left: 2rem;
+	word-break: break-word;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
 }
 
 strong {
@@ -74,3 +78,23 @@ strong {
 	color: var(--bs-body-title);
 }
 
+
+@media (max-width: 568px) {
+.projects {
+    margin-right: 0;
+}
+}
+
+@media (max-width: 568px) {
+.projects a img {
+    width: 60%;
+    margin: 0 auto 1rem 0;
+}
+}
+
+
+@media (max-width: 568px) {
+.projects a {
+    display: block;
+}
+}
